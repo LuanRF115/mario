@@ -1,8 +1,9 @@
-/* http://meyerweb.com/eric/tools/css/reset/ 
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+/* http://meyerweb.com/eric/tools/css/reset/
    v2.0 | 20110126
    License: none (public domain)
 */
-
+ 
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -12,125 +13,291 @@ b, u, i, center,
 dl, dt, dd, ol, ul, li,
 fieldset, form, label, legend,
 table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed, 
-figure, figcaption, footer, header, hgroup, 
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
 menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
-	margin: 0;
-	padding: 0;
-	border: 0;
-	font-size: 100%;
-	font: inherit;
-	vertical-align: baseline;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
 }
 /* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure, 
+article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
-	display: block;
+    display: block;
 }
 body {
-	line-height: 1;
+    line-height: 1;
 }
 ol, ul {
-	list-style: none;
+    list-style: none;
 }
 blockquote, q {
-	quotes: none;
+    quotes: none;
 }
 blockquote:before, blockquote:after,
 q:before, q:after {
-	content: '';
-	content: none;
+    content: '';
+    content: none;
 }
 table {
-	border-collapse: collapse;
-	border-spacing: 0;
+    border-collapse: collapse;
+    border-spacing: 0;
 }
-
+ 
 @import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
-
+ 
 body {
-    margin: 0;
-    padding: 0;
-    font-family: 'Press Start 2P', cursive;
-    background-image: url("imagens/image\ 1.png");
+    background-image: url(imagens/capa.png);
+    background-repeat: no-repeat;
     background-size: cover;
-    color: white;
-    height: 100vh;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100vh; /* Garante que o corpo ocupe toda a tela */
+    backdrop-filter: blur(15px); /* Aplica o desfoque */
 }
-
+ 
 header {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 1px 60px;
+    padding: 31px 95px;
     position: absolute;
     top: 0;
-    width: 100%;
+    width: 85%;
 }
-
+ 
 .logo {
     width: 90px;
 }
-
+ 
 nav ul {
     list-style: none;
     display: flex;
     gap: 40px;
     position: relative;
     right: 80%;
-
+    font-family: 'Poppins';
+ 
 }
-
+ 
 nav ul li a {
     text-decoration: none;
     color: #D9D9D9;
     font-size: 14;
 }
-
+ 
 .social-icons {
     display: flex;
     gap: 20px;
     position: relative;
     right: 8%;
+    color: white;
 }
-
+ 
 .social-icons i {
     font-size: 25px;
     cursor: pointer;
+    position: relative;
+    left: 100px;
+ 
 }
-
+ 
 main {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 100px;
+    padding: 90px;
+   
 }
-
+ 
 .content {
     width:40%;
     font-family: "Regular";
-    
 }
-
+ 
 .movie-logo {
     width: 100%;
-    max-width: 350px;
+    max-width: 235px;
+    margin-top: 73px;
 }
-
+ 
 p {
-    font-size:  20px;
-    line-height: 1.5;
-    margin-top: 70px;
+    width: 483px;
+    font-size:  16px;
+    line-height: 22px;
+    margin-top: 61px;
+    color: white;
+    padding-left: 10px;
+    font-family: "Open Sans";
+    text-align: justify;
+   
 }
-
+ 
 .buttons {
-    margin-top: 20px;
+    margin-top: 26px;
 }
-
+ 
+.trailer-btn, .tickets-btn {
+    padding: 16px 30px;
+    font-size: 15px;
+    border: none;
+    cursor: pointer;
+    font-family: 'Poppins', cursive;
+}
+ 
+.trailer-btn {
+    background: #AB2323;
+    color: white;
+    margin-right: 10px;
+    width: 232px;
+    height: 53px;
+    @import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+ 
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+body {
+    line-height: 1;
+}
+ol, ul {
+    list-style: none;
+}
+blockquote, q {
+    quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content: '';
+    content: none;
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+ 
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+ 
+body {
+    background-image: url(imagens/mario.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100vh; /* Garante que o corpo ocupe toda a tela */
+    backdrop-filter: blur(15px); /* Aplica o desfoque */
+}
+ 
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 31px 60px;
+    position: absolute;
+    top: 0;
+    width: 90%;
+}
+ 
+.logo {
+    width: 90px;
+}
+ 
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 40px;
+    position: relative;
+    right: 80%;
+ 
+}
+ 
+nav ul li a {
+    text-decoration: none;
+    color: #D9D9D9;
+    font-size: 14;
+}
+ 
+.social-icons {
+    display: flex;
+    gap: 20px;
+    position: relative;
+    right: 8%;
+    color: white;
+}
+ 
+.social-icons i {
+    font-size: 25px;
+    cursor: pointer;
+    position: relative;
+    left: 100px;
+ 
+}
+ 
+main {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 90px;
+   
+}
+ 
+.content {
+    width:40%;
+    font-family: "Regular";
+}
+ 
+.movie-logo {
+    width: 100%;
+    max-width: 235px;
+    margin-top: 73px;
+}
+ 
+p {
+    width: 483px;
+    font-size:  16px;
+    line-height: 22px;
+    margin-top: 61px;
+    color: white;
+    padding-left: 10px;
+    font-family: "Open Sans";
+    text-align: justify;
+   
+}
+ 
+.buttons {
+    margin-top: 26px;
+    
+}
+ 
 .trailer-btn, .tickets-btn {
     padding: 15px 30px;
     font-size: 15px;
@@ -138,31 +305,64 @@ p {
     cursor: pointer;
     font-family: 'Press Start 2P', cursive;
 }
-
+ 
 .trailer-btn {
     background: #AB2323;
     color: white;
     margin-right: 10px;
+    width: 252px;
+    height: 53px;
+   
 }
-
+ 
 .tickets-btn {
     background: transparent;
     color: white;
-    border: 2px solid white;
+    border: 1px solid #275228;
+    width: 252px;
+    height: 53px;
 }
-
+ 
 .characters {
     position: relative;
     width: 50%;
     text-align: center;
 }
-
+ 
 .mario {
-    position: absolute;
     right: 0%;
     bottom: 0;
     position: relative;
     top: 30px;
-    width: 450px;
-}
+    width: 382px;
+    height: 456;
 
+   
+}
+   
+}
+ 
+.tickets-btn {
+    background: transparent;
+    color: white;
+    border: 2px solid #275228;
+    width: 252px;
+    height: 53px;
+}
+ 
+.characters {
+    position: relative;
+    width: 50%;
+    text-align: center;
+}
+ 
+.mario {
+    right: 0%;
+    bottom: 0;
+    position: relative;
+    top: 30px;
+    width: 382px;
+    height: 456;
+    left: 140px;
+   
+}
